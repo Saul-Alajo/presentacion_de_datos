@@ -1,6 +1,6 @@
 # Prueba_final_tratamiento_de_datos
 
-Extraer datos de los equipos de la página https://mikrotik.com, almacenarlos en una base de datos y visualizar mediante Flask
+Extraer datos de la base de datos de MongoDB y presentarlos mediante Flask
 
 ### Paso 1:
 
@@ -13,25 +13,25 @@ MONGO_HOST=cluster0.patata.mongodb.net # remplace con su host
 ```
 ### Paso 2:
 
-Instalar las librerías necesarias
+Instalar las librerías necesarias del archivo `requirements.txt`
 
 ```commandline
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Paso 3
 
-Ejecutar `main.py`
+Ejecutar `api.py`
 
 ```commandline
-python3 main.py
+python3 api.py
 ```
 
 ## Paso 4
 
-Chequear los resultados en MongoDB
-![img.png](Imagenes/img.png)
+Chequear los resultados en http://127.0.0.1:5000 http://localhost:5000
+
 
 ## Esquema de ejecución
-![img.png](Imagenes/ESQUEMA.png)
+![esquema.png](Imagenes%2Fesquema.png)
 
