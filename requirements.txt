@@ -1,0 +1,7 @@
+requests
+pymongo
+python-dotenv
+flask
+selenium
+certifi
+pymongo[srv]
